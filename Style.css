@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+}
+
+.container {
+	background-color: #d9ebee; /* Light blue background */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh; /* Full viewport height */
+}
+
+.logo {
+	position: relative;
+	width: 80%;
+	height: 80vh; /* Adjust logo section height */
+	background: url("img/Turq_AM_Chemicals.png") no-repeat left center/contain;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-right: 15%; /*Adjust as needed*/
+}
+
+.text-overlay {
+	color: #00778b;
+	font-size: 3rem;
+	font-weight: bold;
+	text-align: right;
+	/* background: rgba(0, 0, 0, 0.5); */
+	padding-left: 55rem;
+	border-radius: 10px;
+}
